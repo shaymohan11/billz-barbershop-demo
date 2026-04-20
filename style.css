@@ -144,15 +144,8 @@ p  { line-height: 1.65; color: var(--text-muted); font-size: 0.95rem; }
   height: 100%;
   display: flex; align-items: center; gap: 2rem;
 }
-.nav-logo-wrap {
-  display: inline-flex; align-items: center;
-  background: #fff;
-  border-radius: 5px;
-  padding: 4px 8px;
-}
-.nav-logo-wrap img { height: 36px; width: auto; display: block; }
-.footer-logo-img { margin-bottom: 0.8rem; }
-.footer-logo-img img { height: 32px; width: auto; }
+.nav-logo-svg { height: 38px; width: auto; display: block; }
+.footer-logo-svg { height: 34px; width: auto; display: block; margin-bottom: 0.8rem; }
 .nav-links {
   display: flex; gap: 1.8rem; margin-left: auto;
   align-items: center;
@@ -388,9 +381,18 @@ p  { line-height: 1.65; color: var(--text-muted); font-size: 0.95rem; }
   will-change: transform;
 }
 .food-card:hover { transform: translateY(-6px) scale(1.02); box-shadow: 0 16px 40px rgba(0,0,0,0.4); }
-.food-img { width: 100%; aspect-ratio: 1/1; overflow: hidden; }
-.food-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
-.food-card:hover .food-img img { transform: scale(1.04); }
+
+.service-icon {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, #111 0%, #1a1805 100%);
+  border-bottom: 1px solid rgba(201,168,76,0.12);
+  padding: 1.5rem;
+}
+.service-icon svg { width: 52px; height: 52px; opacity: 0.9; }
+.service-icon--razor { background: linear-gradient(135deg, #0e0e0e 0%, #1a1210 100%); }
+.service-icon--star  { background: linear-gradient(135deg, #111 0%, #1a1600 100%); }
 .food-info { padding: 1rem 1rem 1.1rem; }
 .food-info h3 { font-size: 1rem; margin-bottom: 0.3rem; font-family: 'DM Sans', sans-serif; font-weight: 600; }
 .food-info p  { font-size: 0.82rem; color: rgba(255,255,255,0.5); margin-bottom: 0.5rem; }

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 54" fill="none">
+  <!-- Handle top -->
+  <circle cx="13" cy="10" r="7" stroke="#c9a84c" stroke-width="2.8"/>
+  <!-- Handle bottom -->
+  <circle cx="13" cy="40" r="7" stroke="#c9a84c" stroke-width="2.8"/>
+  <!-- Blade top -->
+  <polygon points="18,6.5 43,24 39,26.5 18,17" fill="#c9a84c"/>
+  <!-- Blade bottom -->
+  <polygon points="18,43.5 43,26.5 39,24 18,33" fill="#c9a84c"/>
+  <!-- Pivot outer -->
+  <circle cx="39" cy="25.5" r="3.5" fill="#c9a84c"/>
+  <!-- Pivot inner -->
+  <circle cx="39" cy="25.5" r="1.6" fill="#111111"/>
+  <!-- BILLZ -->
+  <text x="57" y="33"
+    font-family="Anton, Impact, sans-serif"
+    font-size="27"
+    fill="#c9a84c"
+    letter-spacing="2">BILLZ</text>
+  <!-- BARBERSHOP -->
+  <text x="58" y="46"
+    font-family="DM Sans, Helvetica Neue, sans-serif"
+    font-size="8.5"
+    fill="rgba(255,255,255,0.5)"
+    letter-spacing="4.5"
+    font-weight="500">BARBERSHOP</text>
+</svg>
