@@ -161,7 +161,7 @@ p  { line-height: 1.65; color: var(--text-muted); font-size: 0.95rem; }
   letter-spacing: 0.22em;
   color: rgba(255,255,255,0.45);
   text-transform: uppercase;
-  margin-top: 0.15rem;
+  margin-top: 0.35rem;
 }
 .footer-logo-svg { height: 34px; width: auto; display: block; margin-bottom: 0.8rem; }
 .nav-links {
